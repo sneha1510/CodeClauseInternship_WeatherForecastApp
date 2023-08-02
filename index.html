@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+</head>
+<body ><!--style="background-image: url(Images/dawid-zawila--G3rw6Y02D0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;"-->
+    <div class="card">
+        <div class="search">
+            <input type="text" name="" id="" placeholder="Enter city name" spellcheck="false">
+            <button ><img src="Images/search.png" alt="not found" ></button>
+        </div>
+        <div class="weather">
+           <!--<img src="Images/rain.png" alt="" class="weather-icon">-->
+           <br><br>
+           <h2 class="date" id="date" style="font-size: 35px">wednesday,15 oct</h2>
+
+           <h2 class="time" id="time" style="font-size: 30px">12:30 <span id="am_pm">PM
+        </span></h2>
+            
+            <h2 class="temp" id="temp">22°c</h2>
+            <h2 class="city" id="city">Mumbai</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="Images/humidity.png" alt="" >
+                    <div>
+                        <p class="humidity" id="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="Images/wind.png" alt="" >
+                    <div>
+                        <p class="wind">50km/hr</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!--end of card-->
+    <script src="script.js"></script>
+</body>
+</html>
